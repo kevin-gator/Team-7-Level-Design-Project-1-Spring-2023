@@ -77,6 +77,8 @@ public class PlayerController : MonoBehaviour
     private float _groundCheckDistance;
     [SerializeField]
     private float _rampSlideSpeedThreshold;
+    [SerializeField]
+    private float _topSpeed;
 
     private float _xRotation;
     private float _yRotation;
@@ -362,6 +364,14 @@ public class PlayerController : MonoBehaviour
             {
                 StopWallRun();
             }
+        }
+        #endregion
+
+        #region SPEED LIMIT
+
+        if (velocityAsFloat > _topSpeed)
+        {
+            //_rb.AddForce()
         }
         #endregion
     }
