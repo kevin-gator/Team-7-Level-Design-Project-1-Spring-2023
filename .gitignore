@@ -537,6 +537,8 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
+
+
 # JetBrains Rider
 *.sln.iml
 
@@ -544,3 +546,6 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/unity,visualstudio,rider
+
+
+ProjectSettings/Packages/com.unity.probuilder/Settings.json
